@@ -1,3 +1,5 @@
+[![License: CC BY-NC-SA 4.0](https://licensebuttons.net/l/by-nc-sa/4.0/80x15.png)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+
 # Patches: A Collection of VCV Rack Patches
 VCV Rack is a virtual modular synthesizer. All preset are text files in JSON format so they work great with version control.
 
@@ -10,7 +12,9 @@ All `.vcv` files contains 3 key value pairs.
   "cables": []
 }
 ```
+
 The modules key contains an array of objects that represent modules inside the program.
+
 ```json
 {
   "id": 4,
@@ -47,7 +51,9 @@ The modules key contains an array of objects that represent modules inside the p
   ]
 },
 ```
+
 The cables key contains an array of objects that represent a connection inside the program.
+
 ```json
 {
   "id": 0,
@@ -58,3 +64,7 @@ The cables key contains an array of objects that represent a connection inside t
   "color": "#c91847"
 },
 ```
+
+## License
+
+Licensed under Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0). See LICENSE for more info.
